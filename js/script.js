@@ -61,3 +61,6 @@ function displayResultMessage(result) {
 
   Modal.open()
 }
+
+inputWeight.oninput = () => AlertError.close()
+inputHeight.oninput = () => AlertError.close()
